@@ -1,0 +1,15 @@
+/* Header */
+.Header {
+    min-height: 6vh;
+    background-color: rgb(246, 252, 144);
+    padding: 0px 40px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    font-size: calc(8px + 2vmin);
+    font-weight: 700;
+    
+    color: black;
+  }

@@ -1,0 +1,11 @@
+/* Layout */
+.Layout {
+    max-width: 1200px;
+    min-width: 800px;
+    min-height: 100vh;
+    margin: auto;
+    border: 0px solid #ede7e2;
+    border-radius: 30px;
+    background-color: #ede7e2;
+  
+  }

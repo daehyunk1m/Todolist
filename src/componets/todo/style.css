@@ -1,0 +1,63 @@
+/* Todo */
+.Todo-container {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border: 6px solid white;
+    border-radius: 28px;
+  }
+  
+  .Todo-content {
+    height: 140px;
+    padding: 0px 0px 0px 20px;
+    background-color: #ede7e2;
+    border: 1px solid white;
+    border-radius: 23px;
+  }
+  
+  .Todo-btn {
+    height: 60px;
+    width: 400px;
+    margin: 0px, auto;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+  }
+  
+  .Todo-btn-done {
+    width: 200px;
+    background-color: rgb(246, 252, 144);
+    margin-right: 5px;
+    padding: 12px 0px;
+    border: 2px solid rgb(246, 252, 144);
+    border-radius: 30px;
+  
+    font-size: 1em;
+  }
+  
+  .Todo-btn-done:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+  
+    font-weight: 700;
+  }
+  
+  .Todo-btn-remove {
+    width: 200px;
+    background-color: transparent;
+    margin-left: 5px;
+    padding: 12px 0px;
+    border: 2px solid rgb(252, 123, 112);
+    border-radius: 30px;
+  
+    font-size: 1em;
+  }
+  
+  .Todo-btn-remove:hover {
+    background-color: rgb(252, 123, 112);
+    font-weight: 700;
+  }
