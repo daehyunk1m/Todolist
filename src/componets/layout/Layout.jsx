@@ -10,7 +10,7 @@ const Layout = ({todos, onChange, onRemove, addTodo}) => {
       <div className='Layout'>
         <Header/>
         <Form addTodo={addTodo}/>
-        <List todos={todos} onChange={onChange} onRemove={onRemove}/>
+        <List todos={todos} onChange={onChange} onRemove={onRemove} />
       </div>
     )
   }

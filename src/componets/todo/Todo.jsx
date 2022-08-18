@@ -12,8 +12,8 @@ const Todo = ({todo, onChange, onRemove}) => {
           <div className='Todo-btn'>
             <button className='Todo-btn-remove' onClick={() => onRemove(todo.id)}>삭제하기</button>
             { todo.isDone === false
-            ?<button className='Todo-btn-done' onClick={ () => onChange(todo.id) }>완료</button>
-            :<button className='Todo-btn-done' onClick={ () => onChange(todo.id) }>취소</button>
+                ?<button className='Todo-btn-done' onClick={ () => onChange(todo.id) }>완료</button>
+                :<button className='Todo-btn-done' onClick={ () => onChange(todo.id) }>취소</button>
             }
           </div>
         </div>

@@ -43,7 +43,7 @@ const Todolist = () => {
 
   return (
     <div>
-      <Layout todos={todos} onChange={onChange} onRemove={onRemove} addTodo={addTodo}/>      
+      <Layout todos={todos} onChange={onChange} onRemove={onRemove} addTodo={addTodo} />      
     </div>
   )
 }
